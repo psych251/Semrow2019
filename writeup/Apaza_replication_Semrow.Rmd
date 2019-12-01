@@ -1,0 +1,262 @@
+---
+title: Replication of Study 4 by Semrow, Zou, Liu, & Cheryan (2019, Social Psychological
+  and Personality Science)
+author: "Adrian Apaza (apaza@stanford.edu)"
+date: "November 24, 2019"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: no
+  pdf_document:
+    toc: yes
+---
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+[Original paper](https://github.com/psych251/Semrow2019/blob/master/original_paper/semrow2019.pdf) 
+
+[Github repository](https://github.com/psych251/Semrow2019)
+
+[Paradigm](https://stanforduniversity.qualtrics.com/jfe/form/SV_d5OpcZTSNZl1dE9)
+
+
+##Introduction
+
+
+This paper by Semrow et al. (2019) studies how membership in different identity categories interact. In this case the researchers find that Asian Americans who are gay are perceived as more American than straight Asian Americans. My primary research is on categories and membership of organizations and individuals with regards to various identity groups and the status attained by membership in different groups. This work interests me inor that it displays how membership in one identity group (LGBTQ) influences membership in another group (American), and is useful to my field in that membership in either group affects individual's status and labor market outcomes.
+
+This paper differs from the original in that Amazon Mechanical Turkers are recruited rather than undergraduates as in the original study.
+
+\begin{comment}
+[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+\end{comment}
+
+##Methods
+
+###Power Analysis
+\begin{comment}
+So from the original paper we the estimated effect size between the two groups of interest (varying sexuality of target) was .79, standard deviations were within each group 1.08 (less accepting country) and .45.
+Utilizing t-tests for equality and $\alpha=0.05$ at a power level of .8 we would need 19 in each group, at .9 power we would need 25 per group, and at .95 power we would need 30 per group.
+
+However I would reccomend even larger sample sizes since our population being sampled from (M-Turkers) differs from the population selected from in the original study (undergraduate students), since it may be possible that our sample will have greater variance in responses.
+
+\end{comment}
+
+The planned test is an F test for teh interaction between target sexuality and country acceptance. The prior is that the correlation across measures is .554 and that the estimated results for less and equally accepting countries for a gay target are 4.82 and 4.03  where for a straight target it is 3.89 and 4.09 respectively. These estimates are based upon the actual study. However given that Mechanical turkers should vary more than undergrads, I updated the estimated variance such that the standard deviation of results for a measure are expected to be 1.
+
+Based upon these parameters and with $\alpha =0.05$ and for a power of .95, 50 participants ought to be recruited. Had I not had a prior of higher variance then the sample size required would have been lower.
+
+Upon contact with the original study's corresponding author, a higher planned sample was advised due to concerns regarding this proposed replication being underpowered.
+
+###Planned Sample
+
+
+This is a 2 by 2 study. A total sample of 52 is the planned size (26 per condition). Slightly more than 50 should be recruited in case some fail to complete the survey. Each participant will receive two conditions: countries will vary, but sexuality of the person in question will change. The desired sample will be Americans (who use Mturk). Although the original study participants were University of Washington students.
+
+###Materials
+
+The materials as follows will be followed as precisely as possible. [Orignal Materials](https://osf.io/u7wdz/) 
+
+
+"Participants [will be] presented with a hypothetical country either named Boden or Thamen. They were told either that gay people are less welcome and accepted in Boden/Thamen than in the United States, or that they are equally welcome and accepted in Boden/Thamen and the United States. Then, they read about a gay man (“X is a gay man”) or straight man (“X is a straight man”). Participants rated the target’s American identity on three questions: “How likely is it that this person is Bodenian/Thamenian or American?,” “How Bodenian/Thamenian or American is this person?,” and “To what extent do you believe this person identifies as Bodenian/Thamenian or American?” on a scale from 1 (very [likely] Bodenian/Thamenian) to 7 (very [likely] American)...[Then] They read about another target with the same sexual orientation (“Y is a gay/straight man”) [but changed country and homophobia condition] and answered the same three questions about his American identity."
+
+This will be done using a Qualtrics survey with mTurk particpants. Where on one page a country is presented, then on the next page the person is presented along with some questions (then repeated for next country condition).
+
+
+###Procedure/Stimuli and Challenges	
+
+There seems to be some confusion (from reading the paper) as to whether the person in the survey is described as Asian-American or not. In this study (4), they did not; but in other studies (e.g. study 1) the person in question was described more specifically as “a gay Asian American man.” I have contacted the researchers for further comment.
+
+Additionally results may be confounded by the order of the country conditions. So it will be important to randomize the presentation of the country conditions. Additionally participants may quickly learn about the purpose of the experiment upon being exposed to the second condition. Country names may also confound, so it may be important to randomize association of each country name to homophobia conditions of each country. Further confounds may also be introduced by the name of the target person. It may not be reasonable to keep the same name; so two names ("John" and "Alex") may be used and counterbalanced too.
+
+###Analysis Plan
+
+
+The analysis plan is to conduct an 2 by 2 Anova. Then I will get the estimate of the interaction  interaction between target sexuality and country acceptance/homophobia and t tests of the mean differences within each condition. I may exclude participants who failed manipulation checks (regarding country homophobia and the target's sexuality.)
+
+
+###Differences from Original Study
+
+The primary difference will be in the sample. This sample will consist of American mechanical turkers rather than undergraduates at a major American research univeristy. This may make a notable difference as undergraduate students at the University of Washington should be expected to have different views of other countries, ethnicity, and sexuality than the broader American population. If necessary I may later restrict to young Americans. Additionally the sample is smaller.
+
+
+\begin{comment}
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+\end{comment}
+#### Actual Sample
+  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+  Any differences from what was described as the original plan, or “none”.
+
+
+##Results
+
+
+### Data preparation
+
+
+For data preparation it is first of all key to exclude particpants who fail the manipulation checks. As respondents at the end of the survey, in this study, will be asked to indicate how much more or less accepting a country was compared to the United States. Those who fail the manipulation checks (e.g those indicating that the homophobic country is more accepting will be excluded, as will those failing to correctly identify the sexuality of the focal person they read about).
+```{r include=T,eval=T}
+
+####Load Relevant Libraries and Functions
+library(tidyverse)
+df<-read.csv('PilotB.csv')
+#drop first two rows of irrelevant information
+df<-df[-c(1,2),]
+
+#for all responses since the middle option of 4 contains text of 'Equally', replace a response that contains '4' with numeric 4.
+#first we must convert factors to characters then search for 'equally' and replace
+df$Y11<-as.character(df$Y11)
+df$Y12<-as.character(df$Y12)
+df$Y13<-as.character(df$Y13)
+df$Y21<-as.character(df$Y21)
+df$Y22<-as.character(df$Y22)
+df$Y23<-as.character(df$Y23)
+
+df$Y11[grepl('Equally',df$Y11)] <- "4"
+df$Y12[grepl('Equally',df$Y12)] <- "4"
+df$Y13[grepl('Equally',df$Y13)] <- "4"
+df$Y21[grepl('Equally',df$Y21)] <- "4"
+df$Y22[grepl('Equally',df$Y22)] <- "4"
+df$Y23[grepl('Equally',df$Y23)] <- "4"
+
+##convert to numeric
+df[c('Y23','Y22','Y21','Y11','Y12','Y13')] <- sapply(df[c('Y23','Y22','Y21','Y11','Y12','Y13')],as.numeric)
+
+#average the three responses for each condtion
+df$y1<-(df$Y12+df$Y11+df$Y13)/3
+df$y2<-(df$Y22+df$Y21+df$Y23)/3
+
+
+##split by country homophobia
+
+
+##keep relevant information for tests, demographics the manipulations, the measurements, and the manipulation checks
+dfRelevant<-(df %>%
+  select(Country1Homophobia, Sexuality,y1,y2, Manip_1_Check, MAnip_2_check,Sexuality_Check_1,Sexuality_Check_1.1, Gender, Race) )
+
+##put into long format
+data_long <- gather(dfRelevant, condition,measurement, y1:y2, factor_key=TRUE)
+#Now we only kept the first conditions homophobia since then  we know that the second is opposite.
+#So recode condition variable that corresponds to condition's value for homophobia.
+#right now condition is y1 or y2 for order present, now we want it as 1 for  less accepting, and 0 for equal. 
+#But first ensure it is as character not facgtor
+data_long$condition<-as.character(data_long$condition)
+data_long$condition[data_long$condition=='y1' & data_long$Country1Homophobia==T]<-1
+data_long$condition[data_long$condition=='y1' & data_long$Country1Homophobia==F]<-0
+data_long$condition[data_long$condition=='y2' & data_long$Country1Homophobia==T]<-0
+data_long$condition[data_long$condition=='y2' & data_long$Country1Homophobia==F]<-1
+data_long$condition<-as.numeric(data_long$condition)
+
+#recode 1 as gay and 0 as straight for sexuality, after converting to character
+data_long$Sexuality<-as.character(data_long$Sexuality)
+data_long$Sexuality[data_long$Sexuality=='Gay']<-1
+data_long$Sexuality[data_long$Sexuality=='Straight']<-0
+#do the same for the attention checks
+data_long$Sexuality_Check_1<-as.character(data_long$Sexuality_Check_1)
+data_long$Sexuality_Check_1[data_long$Sexuality_Check_1=='Gay']<-1
+data_long$Sexuality_Check_1[data_long$Sexuality_Check_1=='Straight']<-0
+data_long$Sexuality_Check_1[data_long$Sexuality_Check_1=='Not Specified']<-2
+
+data_long$Sexuality_Check_1.1<-as.character(data_long$Sexuality_Check_1.1)
+data_long$Sexuality_Check_1.1[data_long$Sexuality_Check_1.1=='Gay']<-1
+data_long$Sexuality_Check_1.1[data_long$Sexuality_Check_1.1=='Straight']<-0
+data_long$Sexuality_Check_1.1[data_long$Sexuality_Check_1.1=='Not Specified']<-2
+
+data_long$SexualityCheck<-0
+data_long$SexualityCheck[0:(nrow(data_long)/2)]<-data_long$Sexuality_Check_1[0:(nrow(data_long)/2)]
+data_long$SexualityCheck[((nrow(data_long)/2+1):nrow(data_long))]<-data_long$Sexuality_Check_1.1[((nrow(data_long)/2+1):nrow(data_long))]
+
+
+#code as passing manipulation checks if response equals condition
+data_long$SexualityCheckPassed<-0
+data_long$SexualityCheckPassed[as.numeric(data_long$SexualityCheck)==as.numeric(data_long$Sexuality)]<-1
+
+
+#code whether manipulation checks passed, in homophobic condition (1) it should be less accepting(>=5)
+#and for other condition (0) it should be equal/more accpeitng (equal or less than 4).
+
+#First record the equal likert response to 4 after saving as character, then transform to numeric
+data_long$Manip_1_Check<-as.character(data_long$Manip_1_Check)
+data_long$MAnip_2_check<-as.character(data_long$MAnip_2_check)
+data_long$Manip_1_Check[grepl('Equally',data_long$Manip_1_Check)] <- "4"
+data_long$MAnip_2_check[grepl('Equally',data_long$MAnip_2_check)] <- "4"
+#ensure it is numeric
+data_long$Manip_1_Check<-as.numeric(data_long$Manip_1_Check)
+data_long$MAnip_2_check<-as.numeric(data_long$MAnip_2_check)
+
+
+
+#Currently Manip_1_Check and Manip_2_Check variables are based upon presented order, so based upon our transformation of the dataframe to long form we know that the first half of the data will correspond to the first check and second half to second check. So we may create a passing country manipulation variable based upon this.
+data_long$ManipulationCheck<-0
+data_long$ManipulationCheck[0:(nrow(data_long)/2)]<-data_long$Manip_1_Check[0:(nrow(data_long)/2)]
+data_long$ManipulationCheck[((nrow(data_long)/2+1):nrow(data_long))]<-data_long$MAnip_2_check[((nrow(data_long)/2+1):nrow(data_long))]
+
+
+#now code passed checks, initalize to 0
+data_long$PassedManipCheck<-0
+
+#now for equally accpeting countries you should answer 4 or above, recall condition value of 0 corresponds to equal
+data_long$PassedManipCheck[data_long$ManipulationCheck*(1-data_long$condition)>=4 & data_long$condition==0]<-1
+
+#for less accepting countries the answer should be less than 4
+data_long$PassedManipCheck[data_long$ManipulationCheck*(1-data_long$condition)<4 & data_long$condition==1]<-1
+
+##now we can code if  both checks were passed by multiplying together since both ought to be one
+data_long$PassedAllChecks<-0
+data_long$PassedAllChecks<-data_long$PassedManipCheck*data_long$SexualityCheckPassed
+
+#create new dataframe of those who pased checks to analyze them
+data_long_passed<-data_long[data_long$PassedAllChecks==1,]
+
+
+```
+
+### Confirmatory analysis
+```{r include=T,eval=T}
+#now conduct the main analysis of the F test
+myAOV1<-aov(measurement~Sexuality*condition,data=data_long)
+summary(myAOV1)
+
+##again but only for those who passed attention/manipulation checks
+myAOV2<-aov(measurement~Sexuality*condition,data=data_long_passed)
+anova(myAOV2)
+
+
+# Also get t test results comparing conditions (country homophobia) for each sexuality
+t.test((data_long$measurement[data_long$Sexuality==1]~data_long$condition[data_long$Sexuality==1]),alternative = "two.sided")
+t.test((data_long$measurement[data_long$Sexuality==0]~data_long$condition[data_long$Sexuality==0]),alternative = "two.sided")
+
+
+```
+
+###Exploratory analyses
+
+Further Analysis will be done to compare the demographic makeup of m-turkers as compared to the original study; particularly in regard to racial and gender distribution as the original study recruited many more Asian and Asian-American individuals as compared to US Demographics
+
+```{r include=T,eval=T}
+#Get the proportions of White and Asian / Asian Americans in the data
+mean(df$Race=='White')
+mean(df$Race=='Asian / Asian American')
+#Get the Proportions of male and female identifiers
+mean(df$Gender=='Man')
+mean(df$Gender=='Woman')
+
+
+```
+
+## Discussion
+
+<Insert Discussion of my resutls and estimates compared to theirs>
+
+<Insert discussion of demographic differences - I presume racial demographics will vary significantly >
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
