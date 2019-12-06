@@ -1,7 +1,0 @@
-name: Publish Document
-account: rpubs
-server: rpubs.com
-bundleId:
-        https://api.rpubs.com/api/v1/document/536232/f8097a7e7db44820b19036856fc04170
-url: http://rpubs.com/apaza/536232
-when: 1574313359.20474
