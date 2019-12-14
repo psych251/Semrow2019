@@ -2,7 +2,7 @@
 title: Replication of Study 4 by Semrow, Zou, Liu, & Cheryan (2019, Social Psychological
   and Personality Science)
 author: "Adrian Apaza (apaza@stanford.edu)"
-date: "December 4, 2019"
+date: "December 12, 2019"
 output:
   html_document:
     toc: yes
@@ -106,16 +106,14 @@ I also plan to conduct additional analysis of the demographics of the participan
 
 The primary difference from the original study is the sample. This sample will consist of American mechanical turkers rather than students at a major American research university. This may make a notable difference as undergraduate students at the University of Washington should be expected to have different views of other countries, ethnicity, and sexuality than the broader American population. Additionally my sample will be smaller. Only very slight variations have been made to the materials to account for the fact that this survey is being conducted online rather than physically with paper. These slight changes to the materials have been made in consultation with the original study's corresponding author.
 
-\begin{comment}
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
-\end{comment}
+
 #### Actual Sample
-  <Sample size, demographics, data exclusions based on rules spelled out in analysis pla.n>
+The actual sample appeared as hoped. Luckily everyone passed every attention check, so the full sample of 52 participants may be used for each condition they experienced (104 in total). The demographics skewed in favor of about three quarters men and only about 5% Asian / Asian American, which notably differs from the original study's demographics and which I further note below.
 
 #### Differences from pre-data collection methods plan
-  <Any differences from what was described as the original plan, or “none”.>
+None
 
 
 ##Results
@@ -130,14 +128,13 @@ The data analyzed below is from four participants recruited from a pilot.
 ####Load Relevant Libraries and Functions
 library(tidyverse)
 library(ggplot2)
-df<-read.csv('PilotBDataFixedRestricted.csv')
-#drop first two rows of irrelevant duplicated information.
-df<-df[-c(1,2),]
-
+df<-read.csv('Final_Data_Restricted.csv')
+#drop first row of irrelevant duplicated information.
+df<-df[-c(1),]
 
 ##Keep relevant information for tests, demographics the manipulations, the measurements, and the manipulation checks
 dfRelevant<-(df %>%
-  select(Country1Homophobia, Sexuality,Condition_1_Results,Condition_2_Results, Manipulation_1_Check, Manipulation_2_Check,Sexuality_Check_1,Sexuality_Check_2, Gender, Race) )
+  select(Country1Homophobia, Sexuality,Condition_1_Results,Condition_2_Results, Manipulation_1_Check, Manipulation_2_Check,Sexuality_Check_1,Sexuality_Check_2, Gender, Race,ResponseId) )
 
 ##Transform into long format
 data_long <- gather(dfRelevant, condition, Americanness, Condition_1_Results:Condition_2_Results, factor_key=TRUE)
@@ -161,12 +158,12 @@ data_long$SexualityCheck[data_long$condition=='Condition_2_Results']<-data_long$
 
 ##Now keep only our relevant variables: The dependent variable (Americanness), Sexuality, CountryAcceptance, CountryManipulationCheck, SexualityCheck and demographics
 data_long<-(data_long %>%
-  select(Americanness, Sexuality,CountryAcceptance,CountryManipulationCheck, SexualityCheck,Gender, Race) )
+  select(Americanness, Sexuality,CountryAcceptance,CountryManipulationCheck, SexualityCheck,Gender, Race, ResponseId) )
 
 #Now create variable if particpant  passed checks for country of origin acceptance condition, initalize to 0
 data_long$PassedCountryCheck<-0
 
-#now for equally accpeting countries you should answer 4 or above, recall CountryAcceptance value of 0 corresponds to equally acceptin and one as less
+#now for equally accpeting countries you should answer 4 or above, recall CountryAcceptance value of 0 corresponds to equally accepting and 1 as less
 data_long$PassedCountryCheck[as.numeric( as.character( data_long$CountryManipulationCheck)) * (1-data_long$CountryAcceptance) >=4 & data_long$CountryAcceptance == 0] <- 1
 
 #For less accepting countries the answer should be less than 4
@@ -197,19 +194,19 @@ data_long_passed<-data_long[data_long$PassedAllChecks==1,]
 
 
 
-
 ```
 
 ### Confirmatory analysis
 ```{r include=T,eval=T}
-#now conduct the main analysis of the F test for those who passed manipulation check
-AnovaAnalysis<-aov(Americanness~Sexuality*CountryAcceptance,data=data_long_passed)
-##Get the summary displaying F stats
-summary(AnovaAnalysis)
-##Get the Coefficients
-AnovaAnalysis$coefficients
 
 
+aov.1<- aov(Americanness~Sexuality*CountryAcceptance, data=data_long)
+summary(aov.1)
+
+##Note slight change below from earlier pre-registration as I did not make it a mixed-model, which I corrected for by including
+#"Error(ResponseId/(CountryAcceptance))" into the code.
+aov.ErrorWithin <- aov(Americanness~Sexuality*CountryAcceptance  +Sexuality+ Error(ResponseId/(CountryAcceptance)), data=data_long)
+summary(aov.ErrorWithin)
 
 ##now plot the Results
 
@@ -225,36 +222,58 @@ ggplot(data_long_passed, aes(Sexuality, Americanness, fill = CountryAcceptance))
   scale_fill_discrete(name = "Accepting vs U.S.", labels = c("Equally", "Less"))
 
 
+
+
+
 ```
+
 
 ###Exploratory analyses
 
-Further Analysis will be done to compare the demographic makeup of m-turkers as compared to the original study.
+Further Analysis will be done to compare the demographic makeup of m-turkers as compared to the original study. Additionally I examine the standard deviations of the response measurements by condition to explore why my results may not have been as significant.
 
 ```{r include=T,eval=T}
-#Get the proportions of White and Asian / Asian Americans in the data
-mean(df$Race=='White')
-mean(df$Race=='Asian / Asian American')
-#Get the Proportions of male and female identifiers
-mean(df$Gender=='Man')
-mean(df$Gender=='Woman')
 
+##examine standard deviations
+sd(data_long_passed$Americanness[data_long_passed$Sexuality=='gay' & data_long_passed$CountryAcceptance=='0'])
+sd(data_long_passed$Americanness[data_long_passed$Sexuality=='gay' & data_long_passed$CountryAcceptance=='1'])
+sd(data_long_passed$Americanness[data_long_passed$Sexuality=='straight'& data_long_passed$CountryAcceptance=='0'])
+sd(data_long_passed$Americanness[data_long_passed$Sexuality=='straight' & data_long_passed$CountryAcceptance=='1'])
+
+
+
+#Get the proportions of White and Asian / Asian Americans in the data
+sum(df$Race=='White')
+sum(df$Race=='Asian / Asian American')
+#Get the number of man and woman identifiers
+sum(df$Gender=='Man')
+sum(df$Gender=='Woman')
+
+
+sd(data_long_passed$Americanness[data_long_passed$Sexuality=='gay' & data_long_passed$CountryAcceptance=='0'])
+sd(data_long_passed$Americanness[data_long_passed$Sexuality=='gay' & data_long_passed$CountryAcceptance=='1'])
 
 ```
 
 ## Discussion
+My results here are very similar to the original study.  The estimated interaction effect is in the same direction and of similar magnitude. We can see that their figure 3 (page 6) is remarkably similar to the plot I generated. My result however is only significant at p<0.1 (vlaue of ~0.08). 
 
-<Insert Discussion of my results and estimates compared to theirs>
+Notably though however we can see that the standard deviations in responses in my study were higher. For example, for gay individuals in the homophobic country condition the standard deviation was 1.48, higher than the original study's estimate of 1.08.
 
-<Insert discussion of demographic differences - I presume racial demographics will vary significantly >
+Additionally we notice that my sample consisted of many more men and white Americans, but fewer Asian individuals relative to the original study. My sample consisted of 37 men and 15 women  (original had 53 women and 45 men). I also sampled 41 White individuals and only 3 Asian / Asian American identifying individuals (the original study had  38 Asian/Asian American and 36 White participants).
+
+
 ### Summary of Replication Attempt
+
+Overall I conclude that the primary result of this study did replicate - even though it was not as statistically significant. I would expect that this failure to achieve p <0.05 arose from not having a large enough sample size due to it being potentially underpowered arising from incorrectly specified parameters for the power analysis. As it was noticed that the standard deviations (variance) of responses were higher in my study potentially arising from a different demographic being sampled. Though I had tried to take this into account in the power analysis by supposing the variances/standard deviation in responses for the MTurkers. 
+
+
 \begin{comment}
 
 Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
 \end{comment}
 
 ### Commentary
-\begin{comment}
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
-\end{comment}
+I will note that the original authors' did reccomend a larger sample size. The differing results here (in terms of p-values) seem to be resulting from the higher variance of response in my sampled population. Indeed my population did significantly differ demographically from theirs in terms of race and gender, but notably the original study sampled college students. 
+

@@ -1,0 +1,161 @@
+StartDate,EndDate,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Y11,Y12,Y13,Manip_1_Check,Sexuality_Check_1,Y21,Y22,Y23,MAnip_2_check,Sexuality_Check_2,Gender,Trans,Race,Race_8_TEXT,Participant_Orient,Participant_Orient_8_TEXT,Birth,Years_US,Comments,SC0,Condition_1_Results,Condition_2_Results,Manipulation_2_Check,Manipulation_1_Check,FirstPerson,SecondPerson,Sexuality,Country1,Country2,Acceptance1,Acceptance2,Country1Homophobia,Country2Homophobia
+Start Date,End Date,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,How likely is it that this person is [Field-Country1]ian or American?,How [Field-Country1]ian or American is this person?,To what extent do you believe this person identifies as [Field-Country1]ian or American?,How accepting is [Field-Country1] of gay people compared to the U.S.?,What was the sexual orientation of the person you read about?,How likely is it that this person is [Field-Country2]ian or American?,How [Field-Country2]ian or American is this person?,To what extent do you believe this person identifies as [Field-Country2]ian or American?,How accepting is [Field-Country2] of gay people compared to the U.S.?,What was the sexual orientation of the person you read about?,Gender (Please select all that apply for the following question):,Do you identify as a transgender person?,Race/Ethnicity (check all that apply) : - Selected Choice,Race/Ethnicity (check all that apply) : - Other (Please Specify): - Text,What is your sexual orientation? - Selected Choice,What is your sexual orientation? - Other (Please Specify): - Text,List of Countries,"If you were born outside of the U.S., how many years have you lived in the U.S.?",Any comments about this study?,Score,Condition_1_Results,Condition_2_Results,Manipulation_2_Check,Manipulation_1_Check,FirstPerson,SecondPerson,Sexuality,Country1,Country2,Acceptance1,Acceptance2,Country1Homophobia,Country2Homophobia
+12/9/19 15:45,12/9/19 15:46,100,85,TRUE,12/9/19 15:46,R_pnRwXuldABEu53z,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,2,Straight,Woman,No,White,,Straight / Heterosexual,,United States of America,44,,30,12,12,2,4,X,Y,straight,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 15:46,12/9/19 15:47,100,109,TRUE,12/9/19 15:47,R_2RPxIKaVInwjaVs,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,6,6,6,"Much Less Accepting 
+1",Gay,Woman,No,White,,Straight / Heterosexual,,United States of America,,x,38,12,18,1,4,X,Y,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 15:46,12/9/19 15:47,100,102,TRUE,12/9/19 15:47,R_2TTupcEXFIHV8PS,anonymous,EN,5,5,5,"Equally Accepting
+4",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Woman,No,White,,Straight / Heterosexual,,United States of America,,,37,15,12,4,4,Y,X,straight,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 15:47,12/9/19 15:49,100,130,TRUE,12/9/19 15:49,R_27xIn0ZDiJ0cCiu,anonymous,EN,5,5,5,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,34,15,12,4,1,X,Y,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 15:46,12/9/19 15:49,100,201,TRUE,12/9/19 15:49,R_1gLmRwdnyVZi8VZ,anonymous,EN,5,6,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,Very likely ${e://Field/Country2}ian 1,3,Equally ${e://Field/Country2}ian or American 4,"Much More Accepting
+7",Gay,Man,No,Latino / Hispanic or Latino / Hispanic American,,Straight / Heterosexual,,United States of America,,,28,15,8,7,4,Y,X,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 15:50,12/9/19 15:52,100,127,TRUE,12/9/19 15:52,R_3lWYZLxi1NSX0aL,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,Everything worked well.,29,12,12,1,4,Y,X,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 15:54,12/9/19 15:56,100,84,TRUE,12/9/19 15:56,R_1DTjUEHovooGtx2,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,29,12,12,4,1,X,Y,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 15:51,12/9/19 15:59,100,423,TRUE,12/9/19 15:59,R_3oFLM68LS1rtKZd,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,3,3,3,"Much Less Accepting 
+1",Straight,Woman,No,White,,Bisexual,,United States of America,,,26,12,9,1,4,Y,X,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:01,12/9/19 16:02,100,86,TRUE,12/9/19 16:02,R_3P7d3Vi7WUva8qu,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,29,12,12,1,4,Y,X,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:01,12/9/19 16:04,100,182,TRUE,12/9/19 16:04,R_UMUaDLPA4vm5KdH,anonymous,EN,5,5,Equally ${e://Field/Country1}ian or American 4,5,Straight,5,Equally ${e://Field/Country2}ian or American 4,5,5,Straight,Man,Yes,White,,Straight / Heterosexual,,United States of America,47,Good,43,14,14,5,5,X,Y,straight,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 16:06,12/9/19 16:07,100,63,TRUE,12/9/19 16:07,R_oXnLF8UmQfIDPEZ,anonymous,EN,2,3,3,3,Straight,,6,6,"Much More Accepting
+7",Straight,Man,No,White,,Gay,,United States of America,,,25,8,12,7,3,Y,X,straight,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 16:10,12/9/19 16:11,100,89,TRUE,12/9/19 16:11,R_a4C4MzB23tRfUY1,anonymous,EN,Very likely ${e://Field/Country1}ian 1,Very ${e://Field/Country1}ian 1,Very ${e://Field/Country1}ian 1,"Equally Accepting
+4",Gay,Very likely ${e://Field/Country2}ian 1,Very ${e://Field/Country2}ian 1,Very ${e://Field/Country2}ian 1,"Much Less Accepting 
+1",Gay,Man,No,"Latino / Hispanic or Latino / Hispanic American,White",,Straight / Heterosexual,,United States of America,,,11,3,3,1,4,X,Y,gay,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:12,12/9/19 16:13,100,40,TRUE,12/9/19 16:13,R_21grci8JJB9lq30,anonymous,EN,5,5,5,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,34,15,12,4,1,X,Y,gay,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 16:11,12/9/19 16:13,100,119,TRUE,12/9/19 16:13,R_2rVl2GMllaDboOe,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much More Accepting
+7",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,45,none,25,12,12,1,7,Y,X,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:18,12/9/19 16:20,100,102,TRUE,12/9/19 16:20,R_3MiIdnRk3qiIQp4,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much More Accepting
+7",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Straight,Man,No,"Asian / Asian American,Pacific Islander / Native Hawaiian,White",,Straight / Heterosexual,,United States of America,,,25,12,12,1,7,Y,X,straight,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:35,12/9/19 16:38,100,141,TRUE,12/9/19 16:38,R_1E1dnjClVEntdvA,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,Equally likely ${e://Field/Country2}ian or American  4,5,5,"Much Less Accepting 
+1",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,33,12,14,1,4,X,Y,gay,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:31,12/9/19 16:40,100,592,TRUE,12/9/19 16:40,R_1M3W7fzHJTkAH2V,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,29,12,12,1,4,X,Y,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:40,12/9/19 16:42,100,117,TRUE,12/9/19 16:42,R_2BA96AR1ULR4U2n,anonymous,EN,5,6,6,"Much Less Accepting 
+1",Straight,2,Very ${e://Field/Country2}ian 1,2,"Much More Accepting
+7",Straight,Woman,No,Black / African American,,Straight / Heterosexual,,United States of America,,Great survey to participate in. Thank you,25,17,5,7,1,Y,X,straight,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 16:48,12/9/19 16:50,100,68,TRUE,12/9/19 16:50,R_22yNpE9ZnyYAvW2,anonymous,EN,2,2,2,"Equally Accepting
+4",Gay,2,2,2,"Much Less Accepting 
+1",Gay,Woman,No,White,,Straight / Heterosexual,,United States of America,,,17,6,6,1,4,X,Y,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 16:51,12/9/19 16:52,100,69,TRUE,12/9/19 16:52,R_UmUDRYXzdbS7Vcd,anonymous,EN,2,Very ${e://Field/Country1}ian 1,2,"Much Less Accepting 
+1",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,22,5,12,4,1,Y,X,straight,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 16:57,12/9/19 16:58,100,78,TRUE,12/9/19 16:58,R_3LiofjwL0SqXnW9,anonymous,EN,6,5,5,"Much Less Accepting 
+1",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,35,16,12,4,1,Y,X,straight,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 17:05,12/9/19 17:07,100,70,TRUE,12/9/19 17:07,R_1rvpGIdFT0XIDDp,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,"Very Likely American
+7","Very American
+7","Very American
+7","Much Less Accepting 
+1",Gay,Man,No,White,,Gay,,United States of America,,Thanks!,17,12,21,1,4,X,Y,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 17:20,12/9/19 17:23,100,205,TRUE,12/9/19 17:23,R_8weRHGdOlJ9wvUB,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,5,2,Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,Middle Eastern / Middle Eastern American,,Straight / Heterosexual,,United States of America,,none,32,13,12,4,2,X,Y,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 17:27,12/9/19 17:28,100,59,TRUE,12/9/19 17:28,R_114laLSNKvek3PX,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,5,Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,2,Straight,Man,No,Asian / Asian American,,Straight / Heterosexual,,United States of America,,,32,12,12,2,5,Y,X,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 17:30,12/9/19 17:34,100,238,TRUE,12/9/19 17:34,R_1BXBOoVjSuny5td,anonymous,EN,5,5,5,"Equally Accepting
+4",Gay,6,6,6,"Much Less Accepting 
+1",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,Label this optional.,43,15,18,1,4,Y,X,gay,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 17:40,12/9/19 17:41,100,65,TRUE,12/9/19 17:41,R_1me2qacqYOZLFpT,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much Less Accepting 
+1",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,29,12,12,4,1,X,Y,straight,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 17:41,12/9/19 17:42,100,60,TRUE,12/9/19 17:42,R_2YJoIXmYRKzjqlx,anonymous,EN,6,Very ${e://Field/Country1}ian 1,Very ${e://Field/Country1}ian 1,3,Straight,"Very Likely American
+7",3,5,"Much Less Accepting 
+1",Straight,Woman,No,White,,Straight / Heterosexual,,United States of America,,,21,8,15,1,3,Y,X,straight,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 17:48,12/9/19 17:49,100,54,TRUE,12/9/19 17:49,R_1EgFnOsbTObcvAq,anonymous,EN,Very Likely American 7,"Very American
+7","Very American
+7","Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Not Specified,Woman,No,White,,Straight / Heterosexual,,United States of America,,,24,21,12,4,1,X,Y,gay,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 17:48,12/9/19 17:50,100,66,TRUE,12/9/19 17:50,R_sihovEC2vqRIqPL,anonymous,EN,Very likely ${e://Field/Country1}ian 1,5,3,"Much Less Accepting 
+1",Straight,6,Very ${e://Field/Country2}ian 1,"Very American
+7",5,Straight,Woman,No,White,,Straight / Heterosexual,,United States of America,,,25,9,14,5,1,Y,X,straight,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 17:52,12/9/19 17:53,100,74,TRUE,12/9/19 17:53,R_XRNQaYj5AzmZTRn,anonymous,EN,6,Equally ${e://Field/Country1}ian or American 4,"Very American
+7","Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,3,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,26,17,11,4,1,X,Y,gay,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 17:53,12/9/19 17:58,100,294,TRUE,12/9/19 17:58,R_6qWqckHYhZeY3zX,anonymous,EN,5,6,Equally ${e://Field/Country1}ian or American 4,5,Gay,Equally likely ${e://Field/Country2}ian or American  4,5,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Woman,No,Asian / Asian American,,Lesbian,,United States of America,,,40,15,13,4,5,Y,X,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 18:01,12/9/19 18:02,100,74,TRUE,12/9/19 18:02,R_10Zrq7wsCjlRuaA,anonymous,EN,3,2,Equally ${e://Field/Country1}ian or American 4,"Much More Accepting
+7",Gay,5,6,5,"Equally Accepting
+4",Straight,Man,No,Latino / Hispanic or Latino / Hispanic American,,Straight / Heterosexual,,United States of America,,,32,9,16,4,7,X,Y,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 18:06,12/9/19 18:07,100,76,TRUE,12/9/19 18:07,R_3iQnbe1KEb1pyf0,anonymous,EN,6,"Very American
+7","Very American
+7","Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Woman,No,White,,Straight / Heterosexual,,United States of America,,,23,20,12,4,1,Y,X,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 18:26,12/9/19 18:26,100,41,TRUE,12/9/19 18:26,R_6swAU4yGHFSEee5,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Not Specified,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Not Specified,Woman,No,White,,Bisexual,,United States of America,,,29,12,12,1,4,X,Y,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 18:30,12/9/19 18:31,100,52,TRUE,12/9/19 18:31,R_Wkb8gTk0na1a8VP,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much Less Accepting 
+1",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much More Accepting
+7",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,25,12,12,7,1,X,Y,straight,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 18:39,12/9/19 18:42,100,179,TRUE,12/9/19 18:42,R_3phSpPMYRYqcdla,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,"Very Likely American
+7","Very American
+7","Very American
+7","Much More Accepting
+7",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,16,12,21,7,4,Y,X,gay,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 18:46,12/9/19 18:49,100,150,TRUE,12/9/19 18:49,R_3oGbzs1FDDEWvGw,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,Equally likely ${e://Field/Country2}ian or American  4,,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Straight,Woman,No,White,,Straight / Heterosexual,,United States of America,n/a born in US,,25,12,8,1,4,X,Y,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 18:57,12/9/19 18:59,100,113,TRUE,12/9/19 18:59,R_1HiY2fPyOyF4G4Z,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Woman,No,White,,Straight / Heterosexual,,United States of America,,No comments,29,12,12,4,1,X,Y,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 18:57,12/9/19 18:59,100,132,TRUE,12/9/19 18:59,R_1gqIkUmMKaE2W0v,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,5,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,6,"Very American
+7",5,2,Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,33,13,18,2,4,Y,X,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 18:58,12/9/19 18:59,100,61,TRUE,12/9/19 18:59,R_4ZN6BC5iM7M3yAp,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,29,12,12,1,4,X,Y,gay,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 18:53,12/9/19 19:02,100,542,TRUE,12/9/19 19:02,R_11gMTN8dduPxc04,anonymous,EN,5,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,Asian / Asian American,,Straight / Heterosexual,,United States of America,,no comments,30,13,12,4,1,Y,X,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 19:00,12/9/19 19:04,100,236,TRUE,12/9/19 19:04,R_2AL7yy39iLeWvhL,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,5,"Much Less Accepting 
+1",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,5,"Equally Accepting
+4",Straight,Woman,No,Black / African American,,Straight / Heterosexual,,United States of America,N/A,No comments. Thanks!,33,13,13,4,1,Y,X,straight,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 19:09,12/9/19 19:11,100,131,TRUE,12/9/19 19:11,R_R3vWIjom1YgTOLL,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Straight,Man,No,Latino / Hispanic or Latino / Hispanic American,,Straight / Heterosexual,,United States of America,,,32,12,12,4,4,Y,X,straight,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 19:20,12/9/19 19:22,100,93,TRUE,12/9/19 19:22,R_wLx1PIPtAVxmm9r,anonymous,EN,6,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,6,5,"Very American
+7","Much Less Accepting 
+1",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,32,14,18,1,4,X,Y,gay,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 19:22,12/9/19 19:24,100,80,TRUE,12/9/19 19:24,R_yTKBb351Zrcmw5X,anonymous,EN,3,Equally ${e://Field/Country1}ian or American 4,5,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Asexual,,United States of America,,None.,30,12,12,4,1,X,Y,gay,Boden,Thamen,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 19:35,12/9/19 19:37,100,97,TRUE,12/9/19 19:37,R_6yrwEYYH46lL6zT,anonymous,EN,6,6,6,"Much More Accepting
+7",Straight,2,2,3,"Much Less Accepting 
+1",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,Not at this time,28,18,7,1,7,Y,X,straight,Thamen,Boden,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 19:33,12/9/19 19:52,100,1154,TRUE,12/9/19 19:52,R_3MR1l7Tl60q5eTo,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Gay,5,6,6,2,Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,38,12,17,2,4,Y,X,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/9/19 20:02,12/9/19 20:04,100,83,TRUE,12/9/19 20:04,R_W3xGZ3A3CkJNAVX,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,29,12,12,4,1,X,Y,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 20:05,12/9/19 20:06,100,89,TRUE,12/9/19 20:06,R_3h5BaQ7ZwpWgWMH,anonymous,EN,5,6,5,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,,35,16,12,4,1,X,Y,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/9/19 21:47,12/9/19 21:49,100,111,TRUE,12/9/19 21:49,R_zTpdQlFhqw8xhM5,anonymous,EN,5,5,5,"Much More Accepting
+7",Straight,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,,30,15,12,1,7,Y,X,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
+12/10/19 0:58,12/10/19 1:01,100,136,TRUE,12/10/19 1:01,R_3PjX12OEtKbQ2Yj,anonymous,EN,Very Likely American 7,6,6,"Much Less Accepting 
+1",Gay,Equally likely ${e://Field/Country2}ian or American  4,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Equally Accepting
+4",Gay,Man,No,White,,Straight / Heterosexual,,United States of America,,no,38,19,12,4,1,Y,X,gay,Thamen,Boden,much LESS,EQUALLY,TRUE,FALSE
+12/10/19 1:52,12/10/19 1:54,100,126,TRUE,12/10/19 1:54,R_s7hgRU6CXm5ca5j,anonymous,EN,Equally likely ${e://Field/Country1}ian or American  4,Equally ${e://Field/Country1}ian or American 4,Equally ${e://Field/Country1}ian or American 4,"Equally Accepting
+4",Straight,3,Equally ${e://Field/Country2}ian or American 4,Equally ${e://Field/Country2}ian or American 4,"Much Less Accepting 
+1",Straight,Man,No,White,,Straight / Heterosexual,,United States of America,,"none, thank you ",28,12,11,1,4,X,Y,straight,Boden,Thamen,EQUALLY,much LESS,FALSE,TRUE
